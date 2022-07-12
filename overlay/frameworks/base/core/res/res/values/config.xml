@@ -130,6 +130,10 @@
          Software implementation will be used if config_hardware_auto_brightness_available is not set -->
     <bool name="config_automatic_brightness_available">true</bool>
 
+    <!-- Indicates if the device is using linear brightness scaling.
+         You should enable this if your device has a max brightness >255 -->
+    <bool name="config_useLinearBrightness">true</bool>
+
     <!-- If true, the display will be shifted around in ambient mode. -->
     <bool name="config_enableBurnInProtection">true</bool>
 
